@@ -1,0 +1,48 @@
+.entry {
+  background-image: url('../assets/images/home-bg-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.entry--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  padding: 0 64px;
+}
+
+.sponsor--btn {
+  background-color: #000;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-decoration: none;
+
+  padding: 1.5rem;
+  border-radius: 999px;
+}
+
+.entry--main-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.entry--zott-logo {
+  max-width: 50%;
+  min-width: 500px;
+}
+
+.entry--events-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+.events-logos {
+  width: 8%;
+  margin: 0 32px;
+}
