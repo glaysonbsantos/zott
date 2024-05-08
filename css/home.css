@@ -63,7 +63,7 @@
   top: 15%;
 }
 
-.card-1{
+.event-1 .card{
   width: 950px;
   height: 550px;
 
@@ -84,7 +84,51 @@
   transform: translate(-50%, -50%);
 }
 
-.event-1-btn {
+.event-1 .event-btn {
+  text-decoration: none;
+  padding: 1rem 2.5rem;
+  border: 2px solid #000;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+
+  position: absolute;
+
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.persona-2 {
+  width: 950px;
+
+  position: absolute;
+  top: 55%;
+  right: 5%;
+}
+
+.event-2 .card{
+  width: 950px;
+  height: 550px;
+
+  position: absolute;
+  top: 57%;
+  left: 5%;
+
+  background-color: #fff;
+}
+
+.event-2-logo {
+  width: 550px;
+
+  position: absolute;
+
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.event-2 .event-btn {
   text-decoration: none;
   padding: 1rem 2.5rem;
   border: 2px solid #000;
