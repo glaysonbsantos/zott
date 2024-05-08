@@ -171,6 +171,31 @@
 
 .persona-3 {
   position: absolute;
-  bottom: 1.3%;
+  bottom: 1.5%;
   right: 0;
+}
+
+.footer--container {
+  width: 100%;
+  height: 500px;
+  background-color: #0d4aad;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.line-decorator {
+  border: 1px solid #2d2d2d;
+  width: 900px;
+  height: 1px;
 }
