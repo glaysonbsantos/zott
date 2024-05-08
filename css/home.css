@@ -1,5 +1,5 @@
 .entry {
-  background-image: url('../assets/images/home-bg-1.jpg');
+  background-image: url("../assets/images/home-bg-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -45,4 +45,56 @@
 .events-logos {
   width: 136px;
   margin: 0 32px;
+}
+
+.section-1 {
+  background-image: url("../assets/images/home-bg-vector.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 3800px;
+
+  position: relative;
+}
+
+.persona-1 {
+  width: 950px;
+
+  position: absolute;
+  top: 15%;
+}
+
+.card-1{
+  width: 950px;
+  height: 550px;
+
+  position: absolute;
+  top: 17.3%;
+  right: 15%;
+
+  background-color: #fff;
+}
+
+.event-1-logo {
+  width: 450px;
+
+  position: absolute;
+
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.event-1-btn {
+  text-decoration: none;
+  padding: 1rem 2.5rem;
+  border: 2px solid #000;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+
+  position: absolute;
+
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
