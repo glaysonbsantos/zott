@@ -6,7 +6,7 @@
 
 .entry--header {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   align-items: center;
   height: 15vh;
   padding: 0 64px;
@@ -56,32 +56,33 @@
   position: relative;
 }
 
-.persona-1 {
-  width: 1200px;
+.event-1{
+  padding: 140px 0;
+  width: 100%;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+}
 
-  position: absolute;
-  top: 18%;
+.persona-1 {
+  width: 60%;
 }
 
 .event-1 .card{
-  width: 850px;
-  height: 580px;
-
-  position: absolute;
-  top: 22.5%;
-  right: 10%;
+  width: 45%;
 
   background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: -200px;
 }
 
 .event-1-logo {
-  width: 450px;
-
-  position: absolute;
-
-  top: 39%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 40%;
 }
 
 .event-1 .event-btn {
@@ -92,11 +93,7 @@
   font-weight: 600;
   color: #000;
 
-  position: absolute;
-
-  top: 83%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-bottom: 50px;
 }
 
 .persona-2 {
