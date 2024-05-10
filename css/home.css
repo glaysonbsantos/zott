@@ -214,3 +214,70 @@
     padding: 0 8rem 8rem 4rem;
   }
 }
+
+@media (max-width: 900px) {
+  .line-decorator {
+    width: 80%;
+  }
+
+  .about--title {
+    font-size: 1.5rem;
+    padding: 3.5rem 0 2rem 4rem;
+  }
+  
+  .about--content {
+    font-size: 1rem;
+    padding: 0 8rem 3.5rem 4rem;
+  }
+
+  .persona-3 {
+    width: 45%;
+    margin-left: -100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .entry {
+    background-position: 30%;
+  }
+
+  .entry--header {
+    padding: 0 32px;
+  }
+
+  .event-1 {
+    justify-content: center;
+  }
+
+  .event-1 .card {  
+    margin-left: -140px;
+  }
+  
+  .event-1-logo {
+    width: 50%;
+  }
+  
+  .event-1 .event-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  
+    margin-bottom: 24px;
+  }
+
+  .persona-2 {
+    margin-left: -80px;
+  }
+  
+  .event-2-logo {
+    width: 65%;
+  }
+  
+  .event-2 .event-btn {  
+    margin-top: -30px;
+
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  
+    margin-bottom: 24px;
+  }
+}
