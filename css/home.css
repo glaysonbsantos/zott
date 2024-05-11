@@ -16,11 +16,10 @@
   background-color: #000;
   color: #fff;
   font-weight: 500;
-  font-size: 1.5rem;
   text-decoration: none;
 
-  padding: 1.5rem;
-  border-radius: 999px;
+  padding: 1rem 2.5rem;
+  border-radius: 4px;
 }
 
 .entry--main-logo {
@@ -66,10 +65,12 @@
 
 .persona-1 {
   width: 60%;
+  border-radius: 0 4px 4px 0;
 }
 
 .event-1 .card {
   width: 45%;
+  border-radius: 4px;
 
   background-color: #fff;
 
@@ -86,9 +87,11 @@
 }
 
 .event-1 .event-btn {
-  text-decoration: none;
   padding: 1rem 2.5rem;
   border: 2px solid #000;
+  border-radius: 4px;
+  
+  text-decoration: none;
   font-size: 1.5rem;
   font-weight: 600;
   color: #000;
@@ -107,12 +110,14 @@
 
 .persona-2 {
   width: 50%;
+  border-radius: 4px;
 
   margin-left: -100px;
 }
 
 .event-2 .card {
   width: 45%;
+  border-radius: 4px;
 
   background-color: #fff;
 
@@ -129,9 +134,11 @@
 }
 
 .event-2 .event-btn {
-  text-decoration: none;
   padding: 1rem 2.5rem;
   border: 2px solid #000;
+  border-radius: 4px;
+  
+  text-decoration: none;
   font-size: 1.5rem;
   font-weight: 600;
   color: #000;
@@ -151,6 +158,7 @@
 
 .about--content-container {
   width: 70%;
+  border-radius: 0 4px 4px 0;
   background-color: #f13004;
 }
 
@@ -171,6 +179,8 @@
 
 .persona-3 {
   width: 50%;
+  border-radius: 4px 0 0 4px;
+
   margin-left: -100px;
 }
 
@@ -200,10 +210,6 @@
 }
 
 @media (max-width: 1600px) {
-  .sponsor--btn {
-    font-size: 1rem;
-  }
-
   .about--title {
     font-size: 2.5rem;
     padding: 4rem;
@@ -247,6 +253,10 @@
 
   .event-1 {
     justify-content: center;
+  }
+
+  .persona-1 {
+  border-radius: 4px;
   }
 
   .event-1 .card {  
