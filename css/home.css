@@ -50,7 +50,6 @@
   background-image: url("../assets/images/home-bg-vector.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 3800px; */
 
   position: relative;
 }
@@ -58,7 +57,6 @@
 .event-1 {
   padding: 140px 0;
   width: 100%;
-  /* background-color: green; */
   display: flex;
   align-items: center;
 }
@@ -102,7 +100,6 @@
 .event-2 {
   padding-bottom: 140px;
   width: 100%;
-  /* background-color: green; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -150,7 +147,6 @@
 .about {
   padding-bottom: 140px;
   width: 100%;
-  /* background-color: green; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -300,7 +296,7 @@
 }
 
 @media (max-width: 680px) {
-  .sponsor--btn {  
+  .sponsor--btn {
     padding: 1rem 2rem;
     font-size: 0.875rem;
   }
@@ -335,7 +331,7 @@
 
   .event-1,
   .event-2,
-  .about { 
+  .about {
     display: none;
   }
 
@@ -355,15 +351,15 @@
     position: relative;
     width: 90%;
     border-radius: 4px;
-  
+
     background-image: url(../assets/images/home-persona-1.jpg);
     background-size: cover;
-  
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
+
     margin: 60px 0;
   }
 
@@ -391,7 +387,7 @@
     z-index: 2;
     width: 80%;
   }
-  
+
   .event-1-mobile .event-btn,
   .event-2-mobile .event-btn {
     position: relative;
@@ -400,21 +396,21 @@
     padding: 0.5rem 2rem;
     border: 2px solid #000;
     border-radius: 4px;
-  
+
     text-decoration: none;
     font-weight: 600;
     color: #000;
-  
+
     margin-top: -30px;
     margin-bottom: 24px;
   }
 
   .about-mobile {
-      padding-bottom: 60px;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    padding-bottom: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .about-mobile--content-container {
@@ -435,8 +431,7 @@
     background-color: rgba(241, 48, 4, 0.9);
     border-radius: 4px;
     z-index: 1;
-}
-
+  }
 
   .about-mobile--title {
     position: relative;
@@ -447,7 +442,7 @@
     line-height: 1;
     padding: 2rem 1rem;
   }
-  
+
   .about-mobile--content {
     position: relative;
     z-index: 2;
