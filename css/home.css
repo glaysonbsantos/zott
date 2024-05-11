@@ -209,6 +209,13 @@
   height: 1px;
 }
 
+/* Hide all mobile displays */
+.about-mobile,
+.event-1-mobile,
+.event-2-mobile {
+  display: none;
+}
+
 @media (max-width: 1600px) {
   .about--title {
     font-size: 2.5rem;
@@ -318,5 +325,133 @@
 
   .social-media-logo {
     width: 32px;
+  }
+}
+
+@media (max-width: 520px) {
+  .event-1,
+  .event-2,
+  .about { 
+    display: none;
+  }
+
+  .entry--zott-logo {
+    min-width: 80%;
+  }
+
+  .event-1-mobile,
+  .event-2-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .event-1-mobile .card,
+  .event-2-mobile .card {
+    position: relative;
+    width: 90%;
+    border-radius: 4px;
+  
+    background-image: url(../assets/images/home-persona-1.jpg);
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    margin: 60px 0;
+  }
+
+  .event-2-mobile .card {
+    background-image: url(../assets/images/home-persona-2.jpg);
+    margin: 0 0 60px 0;
+  }
+
+  .event-1-mobile .card::after,
+  .event-2-mobile .card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    z-index: 1;
+  }
+
+  .event-1-mobile-logo,
+  .event-2-mobile-logo {
+    position: relative;
+    z-index: 2;
+    width: 80%;
+  }
+  
+  .event-1-mobile .event-btn,
+  .event-2-mobile .event-btn {
+    position: relative;
+    z-index: 2;
+
+    padding: 0.5rem 2rem;
+    border: 2px solid #000;
+    border-radius: 4px;
+  
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+  
+    margin-top: -30px;
+    margin-bottom: 24px;
+  }
+
+  .about-mobile {
+      padding-bottom: 60px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .about-mobile--content-container {
+    width: 90%;
+    border-radius: 4px;
+    background-image: url(../assets/images/home-persona-3.jpg);
+    background-size: cover;
+    position: relative;
+  }
+
+  .about-mobile--content-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 48, 4, 0.9);
+    border-radius: 4px;
+    z-index: 1;
+}
+
+
+  .about-mobile--title {
+    position: relative;
+    z-index: 2;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1;
+    padding: 2rem 1rem;
+  }
+  
+  .about-mobile--content {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding: 0 1rem 2rem 1rem;
+  }
+
+  .line-decorator {
+    width: 90%;
   }
 }
