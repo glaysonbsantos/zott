@@ -329,6 +329,10 @@
 }
 
 @media (max-width: 520px) {
+  .entry {
+    background-position: 65%;
+  }
+
   .event-1,
   .event-2,
   .about { 
