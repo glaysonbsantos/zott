@@ -44,9 +44,21 @@
 
   font-weight: bold;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.event-container {
+  width: 80%;
+}
+.orange-container {
+  background-color: #e27e39;
+}
 
 .event-1 {
-  background-color: #e27e39;
   display: flex;
   align-items: center;
   padding-left: 50px;
@@ -54,21 +66,38 @@
 }
 .event-2 {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-end;
+  flex-direction: row-reverse;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.brown-container {
+  background-color: #ff6131;
 }
 
 .card {
-  height: 580px;
-  background-color: #fff;
   width: 500px;
   height: 500px;
-  transform: skewX(10deg);
+  background-image: url(../assets/images/home-persona-2.jpg);
   margin-left: 50px;
-
+  background-size: cover;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  z-index: 1;
 }
 
 .card img {
@@ -78,25 +107,35 @@
 
 .explicativo {
   flex: 1;
-  padding-left: 50px;
   font-size: 30px;
   padding: 100px;
-  font-weight: bold;
+  font-weight: 400;
 }
 .explicativo p {
   padding: 20px;
 }
 .card2 {
-  height: 580px;
-  background-color: #fff;
   width: 500px;
   height: 500px;
-  transform: skewX(10deg);
-  margin-right: 50px;
-  margin-top: 800px;
+  background-image: url(../assets/images/home-persona-2.jpg);
+  position: relative;
+  background-size: cover;
+
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.card2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  z-index: 1;
 }
 
 .card2 img {
@@ -106,32 +145,12 @@
 
 .explicativo2 {
   flex: 1;
-  padding-left: 50px;
   font-size: 30px;
-  margin-top: 800px;
-  font-weight: bold;
+  padding: 100px;
+  font-weight: 400;
 }
 .explicativo2 p {
   padding: 20px;
-}
-
-.section-2-text {
-  font-size: 8rem;
-  margin-bottom: 20px;
-  font-family: "Jomhuria", serif;
-}
-
-.section-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: -800px;
-}
-.section-2-img {
-  width: 70vw;
-  max-height: 60vh;
-  margin-bottom: 50px;
 }
 
 .footer--container {
@@ -164,8 +183,10 @@
     background-color: #0d4aad;
   }
 
-  .entry {
+  .entry--header {
     background-position: 65%;
+    justify-content: center;
+    padding: 0;
   }
   .titulo {
     font-size: 3rem;
@@ -173,25 +194,37 @@
   .sponsor--btn {
     padding: 1rem 2rem;
     font-size: 0.875rem;
+    width: 90%;
   }
   .card {
     background-color: #fff;
-
-    height: 500px;
+    width: 90%;
+    height: 300px;
     transform: none;
     margin-left: 0px;
     margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+  }
+
+  .card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    z-index: 1;
   }
 
   .explicativo {
     flex: 1;
-    padding-left: 50px;
+    padding: 10px;
     font-size: 1.5em;
-    margin-top: 10px;
-    font-weight: bold;
   }
   .explicativo p {
     padding: 0px;
@@ -206,8 +239,8 @@
 
   .card2 {
     background-color: #fff;
-
-    height: 500px;
+    width: 90%;
+    height: 300px;
     transform: none;
     margin-left: 0px;
     margin-top: 50px;
@@ -218,24 +251,24 @@
 
   .explicativo2 {
     flex: 1;
-    padding-left: 50px;
+    padding: 10px;
     font-size: 1.5em;
-    margin-top: 150px;
-    font-weight: bold;
+    margin-top: 50px;
   }
   .explicativo2 p {
     padding: 0px;
   }
 
-  .section-2-text {
-    display: none;
-  }
-
-  .section-2-img {
-    display: none;
-  }
-
   .line-decorator {
     width: 90%;
+  }
+
+  .footer--container {
+    height: 200px;
+    gap: 32px;
+  }
+
+  .social-media-logo {
+    width: 32px;
   }
 }
