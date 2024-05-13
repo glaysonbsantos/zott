@@ -36,18 +36,6 @@
   height: 100vh;
 }
 
-.entry--zott-logo {
-  max-width: 50%;
-  min-width: 500px;
-}
-
-.entry--events-logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 25vh;
-}
-
 .titulo {
   font-size: 10rem;
   text-align: center;
@@ -57,17 +45,12 @@
   font-weight: bold;
 }
 
-.section-1 {
-  background-image: url("../assets/images/bg-patrocinador.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 3000px;
-  margin-bottom: 800px;
-}
-
 .event-1 {
+  background-color: #e27e39;
   display: flex;
   align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .event-2 {
   display: flex;
@@ -75,6 +58,34 @@
   justify-content: flex-end;
 }
 
+.card {
+  height: 580px;
+  background-color: #fff;
+  width: 500px;
+  height: 500px;
+  transform: skewX(10deg);
+  margin-left: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.explicativo {
+  flex: 1;
+  padding-left: 50px;
+  font-size: 30px;
+  padding: 100px;
+  font-weight: bold;
+}
+.explicativo p {
+  padding: 20px;
+}
 .card2 {
   height: 580px;
   background-color: #fff;
@@ -84,8 +95,8 @@
   margin-right: 50px;
   margin-top: 800px;
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
+  justify-content: center;
+  align-items: center;
 }
 
 .card2 img {
@@ -104,33 +115,23 @@
   padding: 20px;
 }
 
-.card {
-  height: 580px;
-  background-color: #fff;
-  width: 500px;
-  height: 500px;
-  transform: skewX(10deg);
-  margin-left: 50px;
-  margin-top: 400px;
+.section-2-text {
+  font-size: 8rem;
+  margin-bottom: 20px;
+  font-family: "Jomhuria", serif;
+}
+
+.section-2 {
   display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -800px;
 }
-
-.card img {
-  max-width: 60%;
-  max-height: 60%;
-}
-
-.explicativo {
-  flex: 1;
-  padding-left: 50px;
-  font-size: 30px;
-  margin-top: 400px;
-  font-weight: bold;
-}
-.explicativo p {
-  padding: 20px;
+.section-2-img {
+  width: 70vw;
+  max-height: 60vh;
+  margin-bottom: 50px;
 }
 
 .footer--container {
@@ -158,21 +159,83 @@
   height: 1px;
 }
 
-.section-2-text {
-  font-size: 8rem;
-  margin-bottom: 20px;
-  font-family: "Jomhuria", serif;
-}
+@media (max-width: 520px) {
+  body {
+    background-color: #0d4aad;
+  }
 
-.section-2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: -800px;
-}
-.section-2-img {
-  width: 70vw;
-  max-height: 60vh;
-  margin-bottom: 50px;
+  .entry {
+    background-position: 65%;
+  }
+  .titulo {
+    font-size: 3rem;
+  }
+  .sponsor--btn {
+    padding: 1rem 2rem;
+    font-size: 0.875rem;
+  }
+  .card {
+    background-color: #fff;
+
+    height: 500px;
+    transform: none;
+    margin-left: 0px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .explicativo {
+    flex: 1;
+    padding-left: 50px;
+    font-size: 1.5em;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .explicativo p {
+    padding: 0px;
+  }
+
+  .event-1 {
+    flex-direction: column;
+  }
+  .event-2 {
+    flex-direction: column;
+  }
+
+  .card2 {
+    background-color: #fff;
+
+    height: 500px;
+    transform: none;
+    margin-left: 0px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .explicativo2 {
+    flex: 1;
+    padding-left: 50px;
+    font-size: 1.5em;
+    margin-top: 150px;
+    font-weight: bold;
+  }
+  .explicativo2 p {
+    padding: 0px;
+  }
+
+  .section-2-text {
+    display: none;
+  }
+
+  .section-2-img {
+    display: none;
+  }
+
+  .line-decorator {
+    width: 90%;
+  }
 }
