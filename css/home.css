@@ -252,6 +252,7 @@
 
   .entry--header {
     padding: 0 32px;
+    justify-content: center;
   }
 
   .event-1 {
