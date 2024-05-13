@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.entry {
+  background-image: url("../assets/images/home-bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.entry--header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 15vh;
+  padding: 0 20px;
+}
+
+.sponsor--btn {
+  background-color: #000;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+
+  padding: 1rem 2.5rem;
+  border-radius: 4px;
+}
+
+.entry--main-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.entry--zott-logo {
+  max-width: 50%;
+  min-width: 500px;
+}
+
+.entry--events-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+.titulo {
+  font-size: 10rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+
+  font-weight: bold;
+}
+
+.section-1 {
+  background-image: url("../assets/images/bg-patrocinador.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 3000px;
+  margin-bottom: 800px;
+}
+
+.event-1 {
+  display: flex;
+  align-items: center;
+}
+.event-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.card2 {
+  height: 580px;
+  background-color: #fff;
+  width: 500px;
+  height: 500px;
+  transform: skewX(10deg);
+  margin-right: 50px;
+  margin-top: 800px;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.card2 img {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.explicativo2 {
+  flex: 1;
+  padding-left: 50px;
+  font-size: 30px;
+  margin-top: 800px;
+  font-weight: bold;
+}
+.explicativo2 p {
+  padding: 20px;
+}
+
+.card {
+  height: 580px;
+  background-color: #fff;
+  width: 500px;
+  height: 500px;
+  transform: skewX(10deg);
+  margin-left: 50px;
+  margin-top: 400px;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.card img {
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.explicativo {
+  flex: 1;
+  padding-left: 50px;
+  font-size: 30px;
+  margin-top: 400px;
+  font-weight: bold;
+}
+.explicativo p {
+  padding: 20px;
+}
+
+.footer--container {
+  width: 100%;
+  height: 500px;
+  background-color: #0d4aad;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.line-decorator {
+  border: 1px solid #2d2d2d;
+  width: 900px;
+  height: 1px;
+}
+
+.section-2-text {
+  font-size: 8rem;
+  margin-bottom: 20px;
+  font-family: "Jomhuria", serif;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -800px;
+}
+.section-2-img {
+  width: 70vw;
+  max-height: 60vh;
+  margin-bottom: 50px;
+}
