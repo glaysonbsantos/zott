@@ -1,0 +1,50 @@
+.nossavibe--entry {
+  background-image: url("../assets/images/nossa-vibe-entry-bg.jpg");
+  background-size: cover;
+  height: 100svh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nossavibe--entry::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.nossavibe--entry-header,
+.nossavibe--logo {
+  position: relative;
+  z-index: 2;
+}
+
+.nossavibe--entry-header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+
+  padding: 0 64px;
+  height: 15svh;
+}
+
+@media (max-width: 728px) {
+  .nossavibe--entry-header {
+    justify-content: center;
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 680px) {
+  .nossavibe--entry {
+    height: auto;
+  }
+}
