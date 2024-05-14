@@ -152,4 +152,9 @@
     width: 360px;
     padding: 32px;
   }
+
+  .nossavibe--img {
+    width: 350px;
+    height: 250px;
+  }
 }
