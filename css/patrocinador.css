@@ -183,6 +183,9 @@
 }
 
 @media (max-width: 520px) {
+  .entry {
+    background-position: 65%;
+  }
   .entry--header {
     justify-content: center;
     padding: 0;
@@ -193,7 +196,7 @@
   }
 
   .sponsor--btn {
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     font-size: 0.875rem;
     width: 100%;
     text-align: center;
