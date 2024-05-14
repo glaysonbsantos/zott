@@ -1,3 +1,4 @@
+/* CSS */
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +25,6 @@
   color: #fff;
   font-weight: 500;
   text-decoration: none;
-
   padding: 1rem 2.5rem;
   border-radius: 4px;
 }
@@ -41,9 +41,9 @@
   text-align: center;
   margin-bottom: 1.5rem;
   text-transform: uppercase;
-
   font-weight: bold;
 }
+
 .container {
   display: flex;
   justify-content: center;
@@ -54,6 +54,7 @@
 .event-container {
   width: 80%;
 }
+
 .orange-container {
   background-color: #e27e39;
 }
@@ -64,6 +65,7 @@
   padding-left: 50px;
   padding-right: 50px;
 }
+
 .event-2 {
   display: flex;
   justify-content: center;
@@ -72,6 +74,7 @@
   padding-left: 50px;
   padding-right: 50px;
 }
+
 .brown-container {
   background-color: #ff6131;
 }
@@ -111,16 +114,17 @@
   padding: 100px;
   font-weight: 400;
 }
+
 .explicativo p {
   padding: 20px;
 }
+
 .card2 {
   width: 500px;
   height: 500px;
   background-image: url(../assets/images/home-persona-2.jpg);
   position: relative;
   background-size: cover;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,6 +153,7 @@
   padding: 100px;
   font-weight: 400;
 }
+
 .explicativo2 p {
   padding: 20px;
 }
@@ -157,7 +162,6 @@
   width: 100%;
   height: 500px;
   background-color: #0d4aad;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -179,88 +183,59 @@
 }
 
 @media (max-width: 520px) {
-  body {
-    background-color: #0d4aad;
-  }
-
   .entry--header {
-    background-position: 65%;
     justify-content: center;
     padding: 0;
   }
+
   .titulo {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
+
   .sponsor--btn {
     padding: 1rem 2rem;
     font-size: 0.875rem;
-    width: 90%;
-  }
-  .card {
-    background-color: #fff;
-    width: 90%;
-    height: 300px;
-    transform: none;
-    margin-left: 0px;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
-
-  .card::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+  }
+
+  .card-mobile {
+    height: auto;
+    border: #b14e10 solid 1px;
     border-radius: 4px;
-    z-index: 1;
-  }
-
-  .explicativo {
-    flex: 1;
-    padding: 10px;
-    font-size: 1.5em;
-  }
-  .explicativo p {
-    padding: 0px;
-  }
-
-  .event-1 {
-    flex-direction: column;
-  }
-  .event-2 {
-    flex-direction: column;
-  }
-
-  .card2 {
-    background-color: #fff;
-    width: 90%;
-    height: 300px;
-    transform: none;
-    margin-left: 0px;
-    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
-  .explicativo2 {
-    flex: 1;
-    padding: 10px;
-    font-size: 1.5em;
+  .card,
+  .card2 {
+    width: 90%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
     margin-top: 50px;
   }
+
+  .explicativo,
+  .explicativo2 {
+    padding: 20px;
+    font-size: 1.2rem;
+  }
+
+  .explicativo p,
   .explicativo2 p {
     padding: 0px;
   }
 
-  .line-decorator {
-    width: 90%;
+  .event-1,
+  .event-2 {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .footer--container {
@@ -270,5 +245,8 @@
 
   .social-media-logo {
     width: 32px;
+  }
+  .line-decorator {
+    width: 90%;
   }
 }
