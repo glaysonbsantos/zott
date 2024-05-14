@@ -44,6 +44,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  flex-direction: column;
 }
 
 .nossavibe--card-container {
@@ -106,6 +108,59 @@
   background-color: #e37e39;
 }
 
+.nossavibe-lineup {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+.nossavibe-lineup-title {
+  font-family: "Monoton";
+  font-size: 8rem;
+  color: #fff;
+  margin: 4rem 0;
+}
+
+.nossavibe-lineup-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  width: 60%;
+  margin-bottom: 3rem;
+
+  /* background-color: yellow; */
+}
+
+.nossavibe-lineup-img {
+  width: 329px;
+  height: 294px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.nossavibe-lineup-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.25rem;
+  color: #121212;
+}
+
+.nossavibe-lineup-description-djname {
+  font-weight: 700;
+}
+
+@media (max-width: 1280px) {
+  .nossavibe-lineup-card {
+    width: 80%;
+  }
+}
+
 @media (max-width: 1192px) {
   .nossavibe--card-container {
     width: 600px;
@@ -133,6 +188,21 @@
   .nossavibe--card-decorator {
     height: 24px;
     margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nossavibe-lineup-title {
+    font-size: 6rem;
+    margin: 4rem 0;
+  }
+
+  .nossavibe-lineup-card {
+    flex-direction: column;
+  }
+
+  .nossavibe-lineup-card-2 {
+    flex-direction: column-reverse;
   }
 }
 
