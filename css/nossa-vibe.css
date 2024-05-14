@@ -1,6 +1,7 @@
 .nossavibe--entry {
   background-image: url("../assets/images/nossa-vibe-entry-bg.jpg");
   background-size: cover;
+  background-position: center;
   height: 100svh;
 
   display: flex;
@@ -50,10 +51,11 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  column-gap: 64px;
 
   width: 1200px;
   padding: 64px;
-  background-color: green;
+  /* background-color: green; */
 }
 
 .nossavibe--card:nth-child(even) {
@@ -84,6 +86,56 @@
   margin-bottom: 8px;
 }
 
+.nossavibe--card-decorator {
+  width: 94%;
+  height: 32px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  border-radius: 2px;
+}
+
+.decorator-blue {
+  background-color: #355e9a;
+}
+
+.decorator-yellow {
+  background-color: #f6e036;
+}
+
+.decorator-orange {
+  background-color: #e37e39;
+}
+
+@media (max-width: 1192px) {
+  .nossavibe--card-container {
+    width: 600px;
+    padding: 32px;
+  }
+
+  .nossavibe--card:nth-child(even),
+  .nossavibe--card:nth-child(odd) {
+    margin-top: 32px;
+  }
+
+  .nossavibe--card {
+    width: 350px;
+  }
+
+  .nossavibe--img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .nossavibe--card-description {
+    padding: 24px 16px;
+  }
+
+  .nossavibe--card-decorator {
+    height: 24px;
+    margin-bottom: 24px;
+  }
+}
+
 @media (max-width: 768px) {
   .nossavibe--entry-header {
     justify-content: center;
@@ -94,5 +146,10 @@
 @media (max-width: 680px) {
   .nossavibe--entry {
     height: auto;
+  }
+
+  .nossavibe--card-container {
+    width: 360px;
+    padding: 32px;
   }
 }
