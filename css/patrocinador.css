@@ -94,6 +94,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .card::after {
@@ -117,8 +119,9 @@
 .explicativo {
   flex: 1;
   font-size: 30px;
-  padding: 100px;
+  padding-left: 50px;
   font-weight: 400;
+  padding-right: 10px;
 }
 
 .card2 {
@@ -130,6 +133,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .card2::after {
@@ -147,14 +152,16 @@
 .card2 img {
   max-width: 60%;
   max-height: 60%;
+
   z-index: 2;
 }
 
 .explicativo2 {
   flex: 1;
   font-size: 30px;
-  padding: 100px;
+  padding-left: 50px;
   font-weight: 400;
+  padding-right: 10px;
 }
 
 .footer--container {
