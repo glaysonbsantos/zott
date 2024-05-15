@@ -155,6 +155,20 @@
   font-weight: 700;
 }
 
+.nossavibe-video-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0 6rem 0;
+}
+
+.nossavibe-iframe {
+  border-radius: 4px;
+  width: 324px;
+  height: 576px;
+}
+
 @media (max-width: 1280px) {
   .nossavibe-lineup-card {
     width: 80%;
