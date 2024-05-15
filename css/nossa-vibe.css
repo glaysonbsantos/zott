@@ -227,4 +227,22 @@
     width: 350px;
     height: 250px;
   }
+
+  .nossavibe-lineup-card {
+    width: 100%;
+  }
+
+  .nossavibe-lineup-title {
+    font-size: 3.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .nossavibe-lineup-img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .nossavibe-lineup-description {
+    font-size: 1rem;
+  }
 }
