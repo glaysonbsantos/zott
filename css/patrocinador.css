@@ -292,6 +292,7 @@ a {
   .explicativo2 {
     font-size: 1.2rem;
     padding-left: 0;
+    padding: 0;
   }
 
   .explicativo p,
