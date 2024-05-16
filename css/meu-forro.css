@@ -6,3 +6,7 @@
 .meuforro-p1 {
   background-position-y: top;
 }
+
+.meuforro--content {
+  background-image: url("../assets/images/meu-forro-content-bg.png");
+}
